@@ -18,7 +18,7 @@ const abhayaLibre = Abhaya_Libre({
 export const metadata = {
   title: "MedisPo — Vos médicaments, plus proches que jamais",
   description:
-    "Trouvez vos médicaments dans les pharmacies près de chez vous en quelques clics.",
+    "Trouvez vos médicaments dans les pharmacies pres de chez vous en quelques clics.",
 };
 
 export default function RootLayout({ children }) {

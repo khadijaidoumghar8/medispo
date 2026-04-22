@@ -52,7 +52,7 @@ const temoignages = [
     nom: "Youssef Alili",
     role: "Patient",
     texte:
-      "Simple, rapide et efficace. Je ne me déplace plus pour rien, je sais exactement quelle pharmacie a mon médicament avant d'y aller.",
+      "Simple, rapide et éfficace. Je ne me déplace plus pour rien, je sais exactement quelle pharmacie a mon médicaments avant d'y aller.",
     note: 4.8,
   },
   {
