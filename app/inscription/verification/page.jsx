@@ -28,16 +28,16 @@ export default function VerificationPage() {
       {/* Contenu principal */}
       <main className="flex-1 flex items-center justify-center px-4 py-12">
         <div className="w-full max-w-3xl bg-white rounded-2xl shadow-md overflow-hidden flex flex-col md:flex-row">
+
           {/* Colonne gauche — bleu foncé */}
           <div className="bg-primary text-white p-8 md:w-2/5 flex flex-col justify-center">
             <h2 className="font-title text-2xl font-extrabold mb-3 leading-snug">
-              Vérification
-              <br />
-              en cours.
+              Vérification<br />en cours.
             </h2>
             <p className="text-white/75 text-sm leading-relaxed mb-8">
-              Notre équipe MedisPo examine vos documents pour garantir la
-              sécurité et la conformité du réseau MedisPo.
+              Notre équipe MedisPo examine vos documents pour
+              garantir la sécurité et la conformité du réseau
+              MedisPo.
             </p>
 
             {/* Badges */}
@@ -68,8 +68,9 @@ export default function VerificationPage() {
               Merci pour votre confiance !
             </h3>
             <p className="text-textgray text-sm leading-relaxed mb-6 max-w-xs">
-              Votre compte sera activé en moins de 24 heures. Merci de votre
-              patience pendant ce processus de validation.
+              Votre compte sera activé en moins de 24 heures.
+              Merci de votre patience pendant ce processus de
+              validation.
             </p>
 
             <Link
@@ -80,8 +81,8 @@ export default function VerificationPage() {
             </Link>
 
             <p className="text-xs text-textgray mt-5 max-w-xs leading-relaxed">
-              Un e-mail de confirmation a été envoyé à l'adresse fournie lors de
-              l'inscription.
+              Un e-mail de confirmation a été envoyé à l'adresse fournie lors
+              de l'inscription.
             </p>
           </div>
         </div>
@@ -100,10 +101,7 @@ export default function VerificationPage() {
         </div>
         <p className="text-xs text-textgray">
           Besoin d'aide ?{" "}
-          <a
-            href="mailto:support@medispo.fr"
-            className="text-primary hover:underline"
-          >
+          <a href="mailto:support@medispo.fr" className="text-primary hover:underline">
             support@medispo.fr
           </a>
         </p>
